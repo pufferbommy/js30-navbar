@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font inter regular 400, bold 700 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>JS30 Navbar</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">
+        <img src="./assets/Logo.svg" alt="ondeck logo" />
+      </div>
+      <nav class="header__nav">
+        <a id="productsLink" class="nav__link" href="#">Products</a>
+        <a class="nav__link" href="#">Challenges</a>
+        <a class="nav__link" href="#">Resources</a>
+        <a class="nav__link" href="#">Other Links</a>
+      </nav>
+      <div class="header__auth">
+        <button class="sign-in-btn">Sign in</button>
+        <button class="sign-up-btn">Try for free</button>
+      </div>
+      <div class="header__hamburger">
+        <img src="./assets/Menu.svg" alt="menu icon" />
+      </div>
+    </header>
+    <main class="main">
+      <div class="main__hero">
+        <div class="hero__info">
+          <h1 style="margin-bottom: 1rem">
+            Ondeck is your remote <b>conference calling tool</b>
+          </h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Harum vero
+            neque quasi? Exercitationem, incidunt excepturi!
+          </p>
+          <button style="margin-top: 1rem" class="sign-up-btn">
+            Try for free
+          </button>
+          <div class="info__rating">
+            <p>5.0 Rating based on reviews from:</p>
+            <div class="rating__logos">
+              <img src="./assets/Capterra Logo.svg" alt="Capterra Logo" />
+              <img
+                src="./assets/AlternativeTo Logo.svg"
+                alt="AlternativeTo Logo"
+              />
+              <img src="./assets/Gradie_Icon.svg" alt="Shopify Logo" />
+            </div>
+          </div>
+        </div>
+        <div class="hero__img">
+          <img src="./assets/Hero Image.png" alt="hero image" />
+        </div>
+      </div>
+    </main>
+    <footer class="footer">
+      <p>Trusted by 3+ million people at companies like</p>
+      <div class="footer__brand-logos">
+        <img src="./assets/Netflix Logo.svg" alt="Netflix Logo" />
+        <img src="./assets/Shopify Logo.svg" alt="Shopify Logo" />
+        <img src="./assets/Spotify Logo.svg" alt="Spotify Logo" />
+        <img src="./assets/Walmart Logo.svg" alt="Walmart Logo" />
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
